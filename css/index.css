@@ -134,3 +134,35 @@ button:hover{
 .artist img{
     width:100%;
 }
+
+/*Media Query Styles*/
+
+@media (max-width:500px) {
+/*Header Section*/
+    nav{
+        justify-content:center;
+    }
+    nav span{
+        margin-left: 3%;
+        margin-right: 3%;
+    
+    }
+/*Title Section Styles*/
+
+    .title-container div {	
+        height:45vh;
+    }	
+/* Artist Section Styles */
+    .artists-container {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .artist {
+        width: auto;
+    }
+    .artist img {
+        height: auto;
+        width: 50%;
+    }
+}
